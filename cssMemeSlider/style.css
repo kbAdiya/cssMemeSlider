@@ -120,4 +120,6 @@ input[type="radio"] {
 #s2:checked ~ .slider-footer .controls label[for="s2"]:hover,
 #s3:checked ~ .slider-footer .controls label[for="s3"]:hover,
 #s4:checked ~ .slider-footer .controls label[for="s4"]:hover {
+  background-color: transparent;
+  border-color: #ffffff;
 }
