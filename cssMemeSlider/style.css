@@ -125,15 +125,13 @@ input[type="radio"] {
 }
 @media (max-width: 500px) {
   .slider {
-    width: 90%;
+    width: 100%;
   }
-
   .slider-footer {
     flex-direction: column;
     gap: 0.8rem;
     margin-top: 1rem;
   }
-
   .captions-wrapper {
     width: 100%;
     order: 2;
