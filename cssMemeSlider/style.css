@@ -75,4 +75,26 @@ input[type="radio"] {
 .controls {
   display: flex;
   gap: 0.5rem;
+}  
+
+
+.control-btn {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #4c6ef5;
+  border: 0.15rem solid #4c6ef5;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-clip: content-box;
 }
+
+.control-btn:hover {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.control-btn:active {
+  transform: scale(0.8);
+}
+
