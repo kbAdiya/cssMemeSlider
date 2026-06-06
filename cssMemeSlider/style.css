@@ -123,3 +123,28 @@ input[type="radio"] {
   background-color: transparent;
   border-color: #ffffff;
 }
+@media (max-width: 500px) {
+  .slider {
+    width: 90%;
+  }
+
+  .slider-footer {
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-top: 1rem;
+  }
+
+  .captions-wrapper {
+    width: 100%;
+    order: 2;
+  }
+
+  .caption {
+    text-align: center;
+  }
+
+  .controls {
+    order: 1;
+    justify-content: center;
+  }
+}
