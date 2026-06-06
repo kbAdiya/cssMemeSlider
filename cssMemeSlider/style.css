@@ -10,7 +10,7 @@ body {
 
 .slider {
   width: 90%;
-  max-width: 80rem;
+  max-width: 75rem;
   display: flex;
   flex-direction: column;
   margin-bottom: 4rem;
